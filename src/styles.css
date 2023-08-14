@@ -35,6 +35,7 @@ h4 {
 
 .hero{
 background-color: #ffff;
+padding-bottom: 30px;
 }
 
 
@@ -51,7 +52,7 @@ background-color: #ffff;
   display: inline-block;
   font-size: 17px;
   
-transition-duration: 0.4s;
+transition-duration: 0.7s;
 }
 
 .button1:hover{
@@ -59,4 +60,22 @@ transition-duration: 0.4s;
   color: #ca4b7c;
   border: 2px solid #ca4b7c;
   font-size: 20px;
+}
+
+/*About*/
+
+.about-cafe{
+  padding: 100px;
+  text-align: center;
+  background:#a8d7f7 ;
+  color: white;
+  
+}
+
+.about-cafe h1{
+  font-size: 80px;
+}
+
+.about-cafe p{
+  font-size: 30px;
 }
