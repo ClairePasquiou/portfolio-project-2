@@ -9,7 +9,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
 h1,
 h3 {
   font-family: var(--heading-font-family);
@@ -19,7 +18,45 @@ h4 {
   font-family: var(--secondary-font-family);
 }
 
+.hero-text {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.hero-text h1{
+  font-size: 100px;
+}
+
+.hero-text h4{
+  font-size: 20px;
+  font-style: italic;
+}
+
 
 .hero{
 background-color: #ffff;
+}
+
+
+/*Button*/
+
+.button1{
+  background-color: #ca4b7c;
+  border: white;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  
+transition-duration: 0.4s;
+}
+
+.button1:hover{
+  background-color: white;
+  color: #ca4b7c;
+  border: 2px solid #ca4b7c;
+  font-size: 20px;
 }
