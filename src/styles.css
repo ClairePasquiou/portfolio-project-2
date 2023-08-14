@@ -28,7 +28,7 @@ h4 {
 
 .hero-text h4 {
   font-size: 20px;
-  font-style: italic;
+  
 }
 
 .hero {
@@ -123,4 +123,18 @@ h4 {
   color: white;
   padding: 100px;
   text-align: center;
+}
+/*Menu*/
+
+.food{
+  padding: 100px;
+  text-align: center;
+}
+
+/*FAQ*/
+
+.questions{
+  background-color: #a8d7f7;
+  padding: 100px;
+  color: #7a2e7a;;
 }
