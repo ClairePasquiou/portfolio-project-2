@@ -1,12 +1,25 @@
 /*font-family: 'Cherry Bomb One', cursive;
 font-family: 'Open Sans', sans-serif;
+
 */
+
+:root {
+  --heading-font-family: "Cherry Bomb One";
+  --secondary-font-family: "Open Sans";
+}
+
+
 
 h1,
 h3 {
-  font-family: "Cherry Bomb One";
+  font-family: var(--heading-font-family);
 }
 
 h4 {
-  font-family: "Open Sans";
+  font-family: var(--secondary-font-family);
+}
+
+
+.hero{
+background-color: #ffff;
 }
