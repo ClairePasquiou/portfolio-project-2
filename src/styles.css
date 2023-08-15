@@ -28,7 +28,6 @@ h4 {
 
 .hero-text h4 {
   font-size: 20px;
-  
 }
 
 .hero {
@@ -78,63 +77,64 @@ h4 {
 
 /*Information*/
 
-.section-1{
+.section-1 {
   padding: 100px;
-
 }
 
-.days{
+.days {
   color: #7a2e7a;
   font-weight: bold;
 }
 
-.info{
+.info {
   text-align: center;
-  
 }
 
-.info h3{
+.info h3 {
   font-size: 50px;
-  
 }
 
-.info ul{
+.info ul {
   list-style: none;
   font-size: 24px;
 }
 
-.info p{
+.info p {
   font-size: 20px;
 }
 
-.section-1 img{
+.section-1 img {
   border-radius: 30px;
-  height:400px;
+  height: 400px;
 }
 
-.explanation{
+.explanation {
   margin-top: 60px;
 }
 
 /*Adopt*/
 
-.adopt{
+.adopt {
   background-color: #fe7187;
   color: white;
   padding: 100px;
   text-align: center;
 }
+
+.cat-profile {
+  border-radius: 50%;
+}
 /*Menu*/
 
-.food{
+.food {
   padding: 100px;
   text-align: center;
 }
 
 /*FAQ*/
 
-.questions{
+.questions {
   background-color: #a8d7f7;
   padding: 100px;
-  color: #7a2e7a;;
+  color: #7a2e7a;
 }
