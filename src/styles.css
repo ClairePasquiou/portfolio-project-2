@@ -32,7 +32,33 @@ h4 {
 
 .hero {
   background-color: #ffff;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 48px;
+}
+
+/*Navigation*/
+
+.navbar {
+background-color: rgba(247, 225, 225, 0.9) !important;
+
+}
+
+.nav-logo{
+  color: #ca4b7c;
+}
+
+.navbar a{
+  color: #ca4b7c;
+  font-weight: bold;
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+}
+
+.navbar a:hover{
+  color:#7a2e7a;
+  font-weight: bold;
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
 }
 
 /*Button*/
