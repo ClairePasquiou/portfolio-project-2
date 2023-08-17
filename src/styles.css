@@ -112,8 +112,6 @@ h4 {
   margin-top: 60px;
 }
 
-
-
 /*Adopt*/
 
 .adopt {
@@ -133,6 +131,18 @@ h4 {
   text-align: center;
 }
 
+#menu .nav-pills .nav-link {
+  background-color: white;
+  color: #fe7187;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 100px;
+}
+#menu .nav-pills .nav-link.active {
+  background-color: #fe7187;
+  color: white;
+}
+
 /*FAQ*/
 
 .questions {
@@ -140,7 +150,3 @@ h4 {
   padding: 100px;
   color: #7a2e7a;
 }
-
-
-
-
