@@ -337,3 +337,35 @@ footer a:hover {
     font-size: 10px;
   }
 }
+
+@media (min-width: 820px) and (max-width: 1180px) {
+ .img-fluid{
+  padding-top: 100px;
+ }
+
+ .hero h1{
+  font-size: 60px;
+ }
+
+ .section-1{
+  padding-left: 40px;
+  padding-right: 40px;
+ }
+
+ .section-1 h3{
+  font-size: 40px;
+ }
+
+ .section-1 ul{
+  font-size: 20px;
+ }
+
+ .section-1 p{
+  font-size: 20px;
+  text-align: justify;
+ }
+
+ .about-image{
+  padding-top:0px;
+ }
+}
